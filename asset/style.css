@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,500&display=swap");
+
+body {
+  background-position: center;
+  background-size: auto;
+  background-image: url(./img/sfondo.png);
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.header {
+  margin: 3%;
+  background: linear-gradient(173deg, rgb(0 152 185), #036073);
+  color: white;
+  text-align: center;
+}
+
+.par-logo {
+  margin: 3%;
+  padding-bottom: 5%;
+}
+
+.par-logo p:first-of-type {
+  margin-bottom: 5%;
+}
+
+.header img {
+  padding: 6%;
+  width: 50%;
+  display: block;
+  margin-inline: auto;
+}
+
+.main {
+  background-color: white;
+  font-family: "Poppins", sans-serif;
+  margin-left: 3%;
+  margin-right: 3%;
+  -webkit-box-shadow: 0px 5px 15px 5px #737373;
+  box-shadow: 0px 5px 15px 5px #737373;
+}
+
+p span {
+  color: rgb(162, 18, 162);
+}
+
+.main h1 {
+  text-align: start;
+  font-size: 1.8em;
+  padding-top: 6%;
+  margin-left: 5%;
+  margin-top: 5%;
+  font-family: "Poppins", sans-serif;
+}
+
+.main p {
+  margin: 4%;
+  line-height: 25px;
+}
+
+.ul ul {
+  padding-top: 3%;
+  list-style-type: disc;
+  padding-left: 12%;
+  padding-right: 10%;
+}
+
+ul li {
+  margin: 10px 0;
+}
+
+ol {
+  list-style-type: I;
+  padding-top: 3%;
+  padding-left: 12%;
+  padding-right: 10%;
+}
